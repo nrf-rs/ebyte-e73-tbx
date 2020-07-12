@@ -2,12 +2,12 @@
 #![no_main]
 
 extern crate cortex_m_rt as rt;
-extern crate nb;
 extern crate ebyte_e73_tbx_bsp;
+extern crate nb;
 extern crate panic_semihosting;
 
-use ebyte_e73_tbx_bsp::{hal::Timer, prelude::*, Board};
 use core::fmt::Write;
+use ebyte_e73_tbx_bsp::{hal::Timer, prelude::*, Board};
 use nb::block;
 use rt::entry;
 
