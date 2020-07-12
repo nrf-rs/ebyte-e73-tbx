@@ -39,7 +39,7 @@ To use in your own application, add as a dependency and call the
 
 ## Minimum Supported Rust Version
 
-This crate is guaranteed to build on stable Rust 1.41 and higher.
+This crate is guaranteed to build on stable Rust 1.43 and higher.
 
 ## Licence
 
