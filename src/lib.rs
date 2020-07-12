@@ -4,10 +4,6 @@
 //!
 #![no_std]
 
-extern crate cortex_m;
-
-extern crate cortex_m_rt;
-
 #[cfg(feature = "tba")]
 pub extern crate nrf52810_hal as hal;
 
@@ -25,7 +21,7 @@ use hal::{
     uarte::{self, Baudrate as UartBaudrate, Parity as UartParity, Uarte},
 };
 
-use hal::prelude::{OutputPin, InputPin};
+use hal::prelude::{InputPin, OutputPin};
 
 /// Provides access to all features of the E73-TBX boards
 #[allow(non_snake_case)]
