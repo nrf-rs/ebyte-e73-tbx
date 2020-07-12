@@ -13,6 +13,14 @@ Select the variant of your board via Cargo features:
 | [E73-TBA] | nRF52810 |  `tba`  |
 | [E73-TBB] | nRF52832 |  `tbb`  |
 
+For example:
+
+```toml
+[dependencies.ebyte-e73-tbx-bsp]
+version = "x.y.z"
+features = ["tba"]
+```
+
 You will require the `thumbv7em-none-eabihf` target installed. To build one of
 these examples:
 
